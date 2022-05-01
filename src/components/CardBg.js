@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CardBj = () => {
+const CardBj = ({ shoeImg }) => {
     return (
         <div className='cardBg'>
-            <img src='' alt=''></img>
+            <img src={shoeImg} alt="shoe"></img>
         </div>
     )
 }

@@ -1,9 +1,13 @@
 import React from 'react'
+import Button from './Button'
 
-const CardInfo = () => {
+const CardInfo = ({ shoePrice, updateCart }) => {
     return (
         <div className='cardinfo'>
-            <p>Price</p>
+            <p>${shoePrice}</p>
+            <Button addItem={updateCart}/>
         </div>
     )
 }
+
+export default CardInfo;

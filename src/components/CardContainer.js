@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-const CardContainer = () => {
+const CardContainer = ({ updateCart }) => {
     return (
         <div className='cardContainer'>
-            <Card />
+            <Card updateCart={updateCart}/>
         </div>
     )
 

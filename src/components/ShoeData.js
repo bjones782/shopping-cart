@@ -1,9 +1,9 @@
-import ShoeOne from '../img/shoe1.png'
-import ShoeTwo from '../img/shoe2.png'
-import ShoeThree from '../img/shoe3.png'
-import ShoeFour from '../img/shoe4.png'
-import ShoeFive from '../img/shoe5.png'
-import ShoeSix from '../img/shoe6.png'
+import ShoeOne from '../image/shoe1.png'
+import ShoeTwo from '../image/shoe2.png'
+import ShoeThree from '../image/shoe3.png'
+import ShoeFour from '../image/shoe4.png'
+import ShoeFive from '../image/shoe5.png'
+import ShoeSix from '../image/shoe6.png'
 
 
 export default [
